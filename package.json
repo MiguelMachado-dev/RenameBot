@@ -1,0 +1,8 @@
+{
+  "name": "renamebot",
+  "version": "1.0.0",
+  "description": "Renomeia fotos buscando referencias dentro de uma planilha",
+  "main": "index.js",
+  "author": "Miguel Machado Pacheco",
+  "license": "MIT"
+}
