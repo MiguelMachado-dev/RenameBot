@@ -17,7 +17,7 @@ fs.readdir(directoryPath, function(err, files) {
     const rgx = /[A-z]{2}[0-9]{3,}/;
 
     // Se o arquivo não bater com o regex, isto é, não ter referencia, ele será movido para uma outra pasta
-    if (!file.match(rgx)) {
+    if (!file.match(rgx) && path.extname(".png")) {
       console.log(file);
 
       const oldPathWithExt = `${directoryPath}/${file}`;
